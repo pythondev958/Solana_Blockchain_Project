@@ -1,0 +1,8 @@
+/target
+# Ignore the virtual environment
+venv/
+
+# Other files to ignore
+*.pyc
+*.log
+__pycache__
