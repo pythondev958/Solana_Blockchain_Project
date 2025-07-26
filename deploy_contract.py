@@ -68,7 +68,7 @@ def create_phantom_compatible_keypair():
 # Main function to execute the deployment and blockchain actions
 def main():
     # Private key (base58 encoded) example
-    private_key_b58 = "3P4JLW46jhJ8mnNwsZhW7bgsEhkMZbEErKcnfh7bJwyKS7Az64rhjCLumR4NXpatAVyfBZGzuJFmGMdiDadEECFa"
+    private_key_b58 = ""
 
     # Create the Keypair from the private key
     keypair = create_keypair_from_private_key(private_key_b58)
