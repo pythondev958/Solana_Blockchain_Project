@@ -5,7 +5,7 @@ from solders.pubkey import Pubkey  # Import Pubkey from solders
 client = Client("https://api.testnet.solana.com")
 
 # Replace with your actual Program ID
-program_id = Pubkey.from_string("GLnMY2xvTm9ioRRakSCPMExqvK995JETaFivpEtWuzpa")
+program_id = Pubkey.from_string("")
 
 # Get all accounts associated with your program
 response = client.get_program_accounts(program_id)
